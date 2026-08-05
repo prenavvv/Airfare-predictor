@@ -42,8 +42,8 @@ tour_destinations = {
 
 all_airports = {**home_airports, **tour_destinations}
 
-st.title("✈️ IRCTC Tourism Package Price Predictor")
-st.markdown("Select your travel route and date to get an AI-powered baseline budget constraint for package pricing.")
+st.title("✈️ Airfare Predictor")
+st.markdown("Select your travel route and date to get an data powered baseline budget constraint.")
 st.divider()
 
 if models_q10 is None:
